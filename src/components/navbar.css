@@ -1,0 +1,204 @@
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+/* CSS FOR NAVIGATION BAR*/
+
+.logo{
+    width: 115px;
+    height: 34px;
+}
+
+.quick-links a{
+    padding: 0 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #212832;
+    line-height: 22px;
+}
+
+.quick-links .login{
+    margin-left: 40px !important;
+}
+
+.quick-links .btn{
+    border: 1px solid #262d37;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+
+.language i{
+    color:#212832;
+    height: 3px;
+    width: 7px;
+    margin-left: 2px;
+    font-weight: 600;
+}
+
+.language{
+    font-weight: 800;
+}
+
+/* CSS FOR HEADER CONTAINER*/
+
+.header{
+    margin-top: 18px;
+}
+
+.left h4{
+    font-size: 20px;
+    font-weight: 800;
+    color: #DF6951;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+
+.left h1{
+    color: #181E4B;
+    font-family: 'Volkhov', serif;
+    font-size: 84px;
+    max-width: 600px;
+    height: 267px;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+
+.left h1 span img{
+    position: relative;
+    left: 260px;
+    top: -10px;
+    background-repeat: no-repeat;
+    background-position : center;
+    background-color: transparent;
+    z-index: -1;
+}
+
+.left p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5E6282;
+    max-width: 470px;
+    height: 90px;
+}
+
+.btn-container{
+    display: flex;
+    margin-top: 34px;
+}
+
+.btn-left{
+    background: #F1A501;
+    color: #fff;
+    box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
+    border-radius: 10px;
+    padding: 16px 22px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.btn-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 17px;
+    color: #686D77;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.btn-right i{
+    font-size: 46px;
+    color: #df6951;
+    margin-right: 14px;
+}
+
+/* CSS FOR CATEGORY SECTION*/
+
+.bg-plus{
+    position: relative;
+    float: right;
+    left: 60px;
+}
+
+.category{
+    margin-top: 80px !important;
+}
+
+.category h6{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: center;
+    color: #5E6282;
+    margin-bottom: 10px;
+}
+
+.category h1{
+    font-family: 'Volkhov', serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: center;
+    color: #14183E;
+}
+
+.category .card{
+    max-width: 190px;
+    height: 227px;
+}
+
+.category .card-2{
+    width: 276px;
+    height: 314px;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+    background: #FFFFFF;
+    border-radius: 36px;
+}
+
+.category .card img,
+.category .card-2 img
+{
+    margin: 0 auto;
+}
+
+.category .card h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.category .card p,
+.category .card-2 p
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: #5E6282;
+    margin-top: 15px;
+}
+
+.category .card-2 h3{
+    margin-top: 0;
+}
+
+.category .bg-orange{
+    position: relative;
+    top: 350px;
+    left: 330px;
+    z-index: -1;
+}
+
+
+
+
